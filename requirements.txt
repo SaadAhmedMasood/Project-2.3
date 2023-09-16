@@ -6,4 +6,3 @@ seaborn
 reportlab
 letter
 canvas
-BytesIO
