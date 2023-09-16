@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+reportlab
+letter
+canvas
+BytesIO
