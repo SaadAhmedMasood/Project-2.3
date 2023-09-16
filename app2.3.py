@@ -25,7 +25,8 @@ st.set_page_config(
     page_icon="🚗",layout="wide"
 )
 #We are using Project 3 Data-Set
-df = pd.read_csv(r'C:\Users\HP\Desktop\streamlit\Project-2.3\Cars _data.csv')
+#df = pd.read_csv(r'C:\Users\HP\Desktop\streamlit\Project-2.3\Cars _data.csv')
+df = pd.read_csv('Cars _data.csv')
 st.set_option('deprecation.showPyplotGlobalUse', False) # suggestion by streamlit to remove warning on app,
 
 #--------------------------Data Cleaning Process------------------------------#
