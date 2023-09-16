@@ -207,7 +207,8 @@ elif selected_question == '8. Engine Power vs. Body Length & Weight':
 #----------------------------1st Part EDA END HERE-----------------------------------------#
 
 def load_data():
-    data = pd.read_csv(r'C:\Users\HP\Desktop\streamlit\Project-2.3\Cars _data.csv')  # Replace with the path to your dataset
+    #data = pd.read_csv(r'C:\Users\HP\Desktop\streamlit\Project-2.3\Cars _data.csv')  # Replace with the path to your dataset
+    data = pd.read_csv('Cars _data.csv')
     return data
 
 data = load_data()
@@ -297,7 +298,8 @@ from io import BytesIO
 # Load the dataset
 #@st.cache
 def load_data():
-    data = pd.read_csv(r'C:\Users\HP\Desktop\streamlit\Project-2.3\Cars _data.csv')  # Replace with the path to your dataset
+    #data = pd.read_csv(r'C:\Users\HP\Desktop\streamlit\Project-2.3\Cars _data.csv')  # Replace with the path to your dataset
+    data = pd.read_csv('Cars _data.csv')
     return data
 
 data = load_data()
